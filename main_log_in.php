@@ -15,8 +15,8 @@
 if(!isset($_POST['button']) && !isset($_POST['btn_guest'])) {
     ?>
     <form action="main_log_in.php" method="post">
-        <input type="text" name="nick" placeholder="Ваш ник...(guest)"><br>
-        <input type="password" name="pass" placeholder="Ваш пароль...(1111)"><br>
+        <input type="text" name="nick" placeholder="Ваш ник..."><br>
+        <input type="password" name="pass" placeholder="Ваш пароль..."><br>
         <input type="submit" name="button" value="Войти">
         <input type="submit" name="btn_guest" value="Войти как ГОСТЬ">
     </form>
